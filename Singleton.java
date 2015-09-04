@@ -1,33 +1,41 @@
-public class SingleObject {
+/*
+  	The Singleton's purpose is to control object creation, limiting the number of obejcts to one only. 
+  	Since there is only one Singleton instance, any instance fields of a Singleton will occur only once per class, just like static fields.
+  	Singletons often control access to resources such as database connections or sockets.
+	For example, if you have a license for only one connection for your database or your JDBC driver has trouble with multithreading, 
+	the Singleton makes sure that only one connection is made or that only one thread can access the connection at a time.
+ * */
 
-   //create an object of SingleObject
-   private static SingleObject instance = new SingleObject();
 
-   //make the constructor private so that this class cannot be
-   //instantiated
-   private SingleObject(){}
+/*
+ * The easiest implementation consists of a private constructor and a field to hold its result, and a static accessor method with a name like getInstance().
+   The private field can be assigned from within a static initializer block or, more simply, using an initializer. 
+   The getInstance( ) method (which must be public) then simply returns this instance −
+ * 
+ * */
 
-   //Get the only object available
-   public static SingleObject getInstance(){
-      return instance;
-   }
 
-   public void showMessage(){
-      System.out.println("Hello World!");
-   }
+public class SingletonRun {
+	public static void main(String[] args) {
+		Singleton tmp = Singleton.getInstance();
+		tmp.demoMethod();
+	}
 }
 
-public class SingletonPatternDemo {
-   public static void main(String[] args) {
 
-      //illegal construct
-      //Compile Time Error: The constructor SingleObject() is not visible
-      //SingleObject object = new SingleObject();
+class Singleton {
 
-      //Get the only object available
-      SingleObject object = SingleObject.getInstance();
+	private static Singleton singleton = new Singleton();
 
-      //show the message
-      object.showMessage();
-   }
+	
+	private Singleton() {
+	}
+
+	public static Singleton getInstance() {
+		return singleton;
+	}
+
+	protected static void demoMethod() {
+		System.out.println("demoMethod for singleton");
+	}
 }
