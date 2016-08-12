@@ -11,6 +11,7 @@
 
 ##UML диаграмма##
 ![alt tag](https://github.com/tmdautov/design-patterns/blob/master/factory/uml.png)
+![alt tag](https://github.com/tmdautov/design-patterns/blob/master/factory/123.jpg)
 
 
 
