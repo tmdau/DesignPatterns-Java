@@ -1,13 +1,15 @@
-##Порождающие паттерны##
-
-Паттерны которые создают новые объекты, или позволяют получить доступ к уже существующим. То есть те шаблоны, по которым можно создать новый автомобиль и как это лучше сделать.
-
-
-##Структурирующие паттерны##
-
-Данные паттерны помогают внести порядок и научить разные объекты более правильно взаимодействовать друг с другом.
+## Порождающие паттерны
+- Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
 
 
-##Паттерны поведения##
+## Structural patterns
 
-Эта группа паттернов позволяет структурировать подходы к обработке поведения и взаимодействия объектов. Проще говоря, как должны проходить процессы в которых существует несколько вариантов протекания событий.
+Structural patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
+
+
+
+## Behavioral patterns
+
+Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.
+
+
