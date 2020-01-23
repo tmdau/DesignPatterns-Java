@@ -14,5 +14,5 @@ Structural patterns explain how to assemble objects and classes into larger stru
 
 Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.
 
-- **[Observer](https://github.com/tmdautov/design-patterns/blob/master/behavioral/observer.ts)** is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
-- **[Strategy](https://github.com/tmdautov/design-patterns/blob/master/behavioral/strategy.ts)** is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+- **[Observer](https://github.com/tmdautov/design-patterns/blob/master/behavioral/observer.ts)** lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+- **[Strategy](https://github.com/tmdautov/design-patterns/blob/master/behavioral/strategy.ts)** ets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
