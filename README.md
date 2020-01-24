@@ -1,4 +1,5 @@
 # Design patterns cheat sheet
+I believe that design patterns helps you to orginise your code better. It's a fundamental knowledges about how to solve most popular problems on your production. It helps you to not reinvent the wheel. 
 
 ## Creational patterns. 
 Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
